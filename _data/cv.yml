@@ -1,189 +1,114 @@
-cv:
-  name: Albert Einstein
-  label: Scientist
-  email: einstein@example.com
-  location: Princeton, NJ
-  image: ""
-  summary: A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time
+- title: General Information
+  type: map
+  contents:
+    - name: Full Name
+      value: Nan (Nancy) Huang
+    - name: Location
+      value: San Diego, California
+    - name: Email
+      value: nanhuang.0719@gmail.com
+    - name: Languages
+      value: Mandarin (Native), English (Advanced), Spanish (Fluent)
 
-  social_networks:
-    - network: X
-      username: AlbertEinstein
-    - network: GitHub
-      username: example
-    - network: LinkedIn
-      username: example
+- title: Education
+  type: time_table
+  contents:
+    - title: PhD in Data Science
+      institution: University of California, San Diego
+      year: 2025–2030
+      description:
+        - "Cumulative GPA: 4.0/4.0"
+        - "Advisor: Prof. Tiffany Amariuta, Ph.D."
+        - Supported by The Hartwell Foundation
+    - title: B.S. in Data Science, Mathematics and Economics
+      institution: University of California, San Diego
+      year: 2025
+      description:
+        - Provost Honor
+        - "Relevant Coursework: Probabilistic Modeling and Machine Learning, Recommender Systems & Web Mining, Optimization, Data Structures & Algorithms, Data Management, Linear Algebra, Stochastic Processes, Statistics"
 
-  address:
-    street: 2712 Broadway St
-    city: San Francisco
-    region: California
-    postalCode: CA 94115
-    countryCode: US
+- title: Research Experience
+  type: time_table
+  contents:
+    - title: Graduate Student Researcher
+      institution: UCSD Halıcıoğlu Data Science Institute
+      year: 2024–Present
+      description:
+        - "Advisor: Prof. Tiffany Amariuta, Ph.D."
+        - "Project: Neonatal Asthma Risk Prediction — Led construction of the largest meta-analysis GWAS for childhood-onset asthma (N > 1.3M); developed integrated PRS + PTRS genetic risk prediction framework."
+        - "Project: Deep Learning for Gene Expression — Built end-to-end pipeline integrating Enformer with Gradient Boosting; identified ~40 regulatory variants overlapping classical eQTL signals."
+        - "Advisor: Prof. Jingbo Shang, Ph.D."
+        - "Project: DNA Tokenizers — Developed biologically informed tokenization for genomic foundation models using Unigram/BPE augmented with evolutionary conservation and motif structure."
+    - title: Senior Student Researcher
+      institution: UC Institute on Global Conflict and Cooperation
+      year: 2023–2025
+      description:
+        - "Advisor: Prof. Tai Ming Cheung, Ph.D."
+        - Built SQL relational databases linking 2,000+ S&T institutions and policies; developed NLP-based keyword extraction and ML classification model (87% accuracy).
+    - title: Data Engineer
+      institution: Power Transformation Lab, UCSD School of Global Policy and Strategy
+      year: 2024–2025
+      description:
+        - "Advisor: Prof. Michael Davidson, Ph.D."
+        - Designed SQL database for electricity data; automated ETL pipelines across 10+ projects in collaboration with San Diego Supercomputer Center.
+    - title: Undergraduate Researcher
+      institution: The Economic Research Lab, UCSD Department of Economics
+      year: 2023–2024
+      description:
+        - Advisor: Philip Gordon Hoxie
+        - Built fuzzy matching algorithm to link 15,000+ grant records to NTD IDs; integrated GPT-3.5 API for policy document classification.
+    - title: Undergraduate Student Researcher
+      institution: UCSD Political Science Department
+      year: 2022
+      description:
+        - "Advisor: Prof. Gareth Nellis, Ph.D."
+        - Analyzed links between political competition and ethno-religious violence in South Asia using multivariate regression on electoral data from 100+ countries.
 
-  sections:
-    Education:
-      - institution: University of Zurich
-        location: Zurich, Switzerland
-        url: https://www.uzh.ch/
-        area: Physics
-        studyType: PhD
-        start_date: 1900
-        end_date: 1905
-        score: ""
-        courses: "Theory of Relativity"
-        highlights:
-          - Description 1.
-          - Description 2.
+- title: Professional Experience
+  type: time_table
+  contents:
+    - title: Data Management Intern
+      institution: Office of the City Treasurer, City of San Diego
+      year: 2024–2025
+      description:
+        - Designed Python-based automation pipeline for SAP FI-CA master data review; achieved 70% efficiency boost in data management workflows.
+        - Developed web scraping scripts for local travel industry data to support tax compliance audits.
+    - title: Quantitative Analysis Intern
+      institution: Soochow Securities Co., Shanghai
+      year: 2023
+      description:
+        - Conducted asset allocation research using Mean-Variance, Risk Parity, and Black-Litterman models.
+        - Built portfolio frontiers via Monte Carlo simulation; applied hierarchical clustering for fund classification.
+    - title: Part-time Data Assistant
+      institution: Oliver Wyman (Remote)
+      year: 2023
+      description:
+        - Built NLP model for keyword analysis of employee writing; automated API data transfer and report generation for 1,000+ employees, improving efficiency by 80%.
 
-      - institution: Eidgenössische Technische Hochschule
-        location: Zurich, Switzerland
-        area: Physics
-        studyType: Federal teaching diploma
-        start_date: 1896
-        end_date: 1900
-        highlights:
-          - Description 1.
-          - Description 2.
+- title: Talks and Poster Presentations
+  type: time_table
+  contents:
+    - title: "Enhancing Childhood Asthma Risk Prediction with Biologically Informed Polygenic Transcriptomic Models (Poster)"
+      institution: American Society of Human Genetics (ASHG), Boston, MA
+      year: Oct 2025
+    - title: "Childhood Asthma Risk Prediction: A Deeper Look at Causal Variants and Genes (Oral + Poster)"
+      institution: Human Genetics and Genomics Gordon Research Seminar and Conference, Portland, ME
+      year: Jul 2025
+    - title: Incorporate Deep Learning Model to Better Predict Individual Gene Expression (Poster)
+      institution: Halıcıoğlu Data Science Institute Capstone Showcase, La Jolla, CA
+      year: Mar 2025
 
-    Experience:
-      - company: Institute for Advanced Study, Princeton University
-        position: Professor of Theoretical Physics
-        location: Princeton University, NJ
-        start_date: 1933
-        end_date: 1955
-        summary: Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.
-        highlights:
-          - Relativity
-          - Description 2.
-
-      - company: California Institute of Technology
-        position: Visiting Professor
-        location: Pasadena, California, US
-        start_date: 1933
-        end_date: 1933
-        highlights:
-          - Description 1.
-          - Description 2.
-
-      - company: Kaiser Wilhelm Institute for Physics
-        position: Director
-        location: Berlin, Germany
-        start_date: 1917
-        end_date: 1933
-
-      - company: Karl-Ferdinand University
-        position: Professor of Theoretical Physics
-        location: Prague, Czechoslovakia
-        start_date: 1911
-        end_date: 1917
-
-      - company: University of Zurich
-        position: Associate Professor of Theoretical Physics
-        location: Zurich, Switzerland
-        start_date: 1909
-        end_date: 1911
-
-    Volunteer:
-      - company: People's Climate March
-        position: Lead Organizer
-        location: Zurich, Switzerland
-        start_date: 2014-04-01
-        end_date: 2015-07-01
-        summary: Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.
-        highlights:
-          - "Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march."
-          - "Men of the year 2014 by Time magazine"
-
-    Awards:
-      - title: Nobel Prize in Physics
-        authors:
-          - "Royal Swedish Academy of Sciences"
-        date: 1921-11-01
-        awarder: Royal Swedish Academy of Sciences
-        url: https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/
-        summary: The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'
-
-      - title: Max Planck Medal
-        authors:
-          - "German Physical Society"
-        date: 2029
-        awarder: German Physical Society
-        summary: Awarded for outstanding scientific achievement
-
-    Publications:
-      - title: Zur Elektrodynamik bewegter Körper
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-06-30
-        url: https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies
-        summary: It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source.
-
-      - title: Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-03-18
-        url: https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt
-        summary: In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921.
-
-      - title: Die Grundlage der allgemeinen Relativitätstheorie
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1916-03-20
-        url: https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie
-        summary: The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914).
-
-    Skills:
-      - name: Physics
-        level: Master
-        icon: fa-solid fa-hashtag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
-
-    Languages:
-      - name: German
-        summary: "Native speaker"
-
-      - name: English
-        summary: "Fluent"
-
-    Interests:
-      - name: Physics
-        icon: fa-solid fa-tag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
-
-    Certificates:
-      - name: Machine Learning
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-location-dot
-
-      - name: Quantum Computing
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-tag
-
-      - name: Quantum Information
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-envelope
-
-    Projects:
-      - name: Quantum Computing
-        summary: Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.
-        highlights:
-          - Quantum Teleportation
-          - Quantum Cryptography
-        start_date: 2018-01-01
-        end_date: 2018-01-01
-
-    References:
-      - name: Professor John Doe
-        icon: fa-solid fa-laptop
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
-
-      - name: Professor Jane Smith
-        icon: fa-solid fa-thumbtack
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+- title: Technical Skills
+  type: nested_list
+  contents:
+    - title: Programming
+      items:
+        - "Expert: Python, R, MS Office Suite"
+        - "Advanced: Java, SQL, MATLAB, JavaScript, SAP, STATA"
+        - "Intermediate: HTML, LaTeX"
+    - title: Research Areas
+      items:
+        - Statistical Genomics & Computational Biology
+        - Machine Learning & Deep Learning
+        - Natural Language Processing
+        - Quantitative Finance
