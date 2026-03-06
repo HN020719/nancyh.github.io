@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://nancyhuang.github.io/sitemap.xml
+Sitemap: https://nancyh.github.io/sitemap.xml
