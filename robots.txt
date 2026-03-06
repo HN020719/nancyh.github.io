@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://nancyhuang.github.io/al-folio/sitemap.xml
+Sitemap: https://nancyhuang.github.io/sitemap.xml
